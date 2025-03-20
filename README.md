@@ -146,6 +146,10 @@ sudo service postgresql restart
 
 sudo service postgresql status
 
+# if needed 
+
+
+time pg_basebackup -R -h prodiptspdatabaseserver1 -U replica -D /var/lib/postgresql/14/main -P
 
 
 
